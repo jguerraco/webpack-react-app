@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e7e7e7;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.callout {
+  font-weight: 700;
+  background-color: #CFF4FC;
+  color: #055160;
+  border-left: 8px solid #9EEAF9;
+  margin-bottom: 30px;
+  padding: 1rem;
+}
+
+.counter {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+header,
+footer {
+  text-align: center;
+}
